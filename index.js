@@ -152,7 +152,7 @@ client.on("interactionCreate", async (interaction) => {
     }
 })
 
-client.login("MTAzMTc0MzI0NTQwMDY5MDczOA.Guj0OE.-VLhRIkCAwUwFlZf1v8fLj72V46TYIx6TmEk7A");
+client.login(config.token); // config.json not added to repository for security purposes
 // keepAlive();
 
 
